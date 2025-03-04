@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@nomicfoundation/hardhat-toolbox':
         specifier: ^5.0.0
-        version: 5.0.0(j3zgiczingkl353ztaed7rgwkm)
+        version: 5.0.0(4ebb430509ab724dfb6cdc2a0ebc0b29)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -2494,7 +2494,7 @@ snapshots:
       ethereumjs-util: 7.1.5
       hardhat: 2.22.19(ts-node@10.9.2(@types/node@22.13.8)(typescript@5.8.2))(typescript@5.8.2)
 
-  '@nomicfoundation/hardhat-toolbox@5.0.0(j3zgiczingkl353ztaed7rgwkm)':
+  '@nomicfoundation/hardhat-toolbox@5.0.0(4ebb430509ab724dfb6cdc2a0ebc0b29)':
     dependencies:
       '@nomicfoundation/hardhat-chai-matchers': 2.0.8(@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.13.5)(hardhat@2.22.19(ts-node@10.9.2(@types/node@22.13.8)(typescript@5.8.2))(typescript@5.8.2)))(chai@4.5.0)(ethers@6.13.5)(hardhat@2.22.19(ts-node@10.9.2(@types/node@22.13.8)(typescript@5.8.2))(typescript@5.8.2))
       '@nomicfoundation/hardhat-ethers': 3.0.8(ethers@6.13.5)(hardhat@2.22.19(ts-node@10.9.2(@types/node@22.13.8)(typescript@5.8.2))(typescript@5.8.2))
