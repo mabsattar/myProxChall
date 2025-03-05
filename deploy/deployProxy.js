@@ -5,16 +5,18 @@ async function main() {
    * @dev make sure the first argument has the same name as your contract in the Hello_swtr.sol file
    * @dev the second argument must be the message we want to set in the contract during the deployment process
    */
-  const SWTRProxy = await hre.ethers.getContractFactory("SWTRProxy");
+  const myProxyChall = await hre.ethers.getContractFactory("myProxychall");
 
+  const swissProxyAddress = "0xE0B01554f0bEa6Aa6211775a4eC8C3fCC23dC58B";
 
   // deploying contract
-  console.log("Deploying SWTR Proxy contract...");
-  const swtrProxy = await contract.waitForDeployment();
-  await swtrProxy.waitForDeployment();
+  console.log("Deploying myproxychall contract...");
+  const myContract = await MyProxyChall.deploy(swissProxyAddress);
+  await myContract.waitForDeployment();
+
 
   // Logging the deployed contract address
-  console.log("SWTR Proxy deployed to: ", await swtrProxy.getAddress());
+  console.log("myProxychall deployed to: ", await myContract.getAddress());
 
 }
 
