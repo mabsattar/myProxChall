@@ -5,6 +5,7 @@
     "prettier": "^3.5.3"
   },
   "dependencies": {
+    "@swisstronik/sdi-contracts": "^1.2.5",
     "typescript": "^5.8.2"
   }
 }
